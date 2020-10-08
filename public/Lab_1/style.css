@@ -1,0 +1,28 @@
+html {
+  background-color: rgb(42, 72, 77);
+  margin: 0;
+  padding: 0;
+}
+.name {
+  background-color: black;
+  color: rgb(223, 219, 30);
+  padding: 20px;
+}
+.second {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  border-radius: 8px;
+  width: 250px;
+}
+.resume {
+  font: italic normal 1.4em georgia, sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: rgb(223, 219, 30);
+  justify-content: space-between;
+  text-align: left;
+}

@@ -1,5 +1,5 @@
 body {
-    background: #ce1791;
+    background: #1766ce;
   }
   
   html {
@@ -7,19 +7,19 @@ body {
   }
   
   .header {
-    margin-bottom: 10px;
-    display: flex;
-    flex-flow: row wrap;
     padding: 1%;
+    margin-bottom: 10px;
+    flex-flow: row wrap;
+    display: flex;
   }
   
   h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 4rem;
     text-align: center;
-    color: #cd1ce4;
-    text-shadow: 2px 2px 10px black;
     font-weight: 100;
+    text-shadow: 2px 2px 10px black;
+    color: #1716ce;
     flex: 5;
     text-transform: uppercase;
   }
@@ -29,13 +29,8 @@ body {
   .flex-outer li,
   .flex-inner {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-  }
-  
-  .flex-outer{
-    max-width: 800px;
-    padding: 0px 16px;
+    flex-wrap: wrap;
   }
   
   .flex-outer > li > label,
@@ -49,16 +44,27 @@ body {
   .flex-inner {
     flex: 1 0 225px;
   }
+
+  .flex-outer{
+    max-width: 800px;
+    padding: 0px 16px;
+  }
   
   .flex-outer li button {
     margin-left: auto;
     padding: 8px 16px;
-    border: none;
     background: #333;
     color: #f2f2f2;
     text-transform: uppercase;
+    border: none;
     letter-spacing: .09em;
     border-radius: 2px;
+  }
+
+  .flex-outer > li > button {
+    margin-left: 0px;
+    padding: 6px 12px;
+    border-radius: 3px;
   }
   
   .flex-inner li {
@@ -67,10 +73,4 @@ body {
   
   .flex-inner {
     justify-content: space-between;
-  }
-  
-  .flex-outer > li > button {
-    margin-left: 0px;
-    padding: 6px 12px;
-    border-radius: 3px;
   }
